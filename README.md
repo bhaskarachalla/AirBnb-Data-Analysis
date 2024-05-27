@@ -1,6 +1,4 @@
-Here's a README file for the "Airbnb Insights Presentation" document:
 
----
 
 # Airbnb Insights Presentation
 
