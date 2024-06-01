@@ -18,7 +18,7 @@ st.title("AIRBNB DATA ANALYSIS")
 st.write("")
 
 def datafr():
-    df= pd.read_csv("C:/Users/Srinivasa Rao/OneDrive/Documents/AirBnb Data Analysis/AirBnb.csv")
+    df= pd.read_csv("C:/Users/Srinivasa Rao/OneDrive/Documents/GUVI_Projects/AirBnb Data Analysis/AirBnb.csv")
     return df
 
 df= datafr()
@@ -28,7 +28,7 @@ with st.sidebar:
 
 if select == "Home":
 
-    image1= Image.open("C:/Users/Srinivasa Rao/OneDrive/Documents/AirBnb Data Analysis/AirBNBIM.jpeg")
+    image1= Image.open("C:/Users/Srinivasa Rao/OneDrive/Documents/GUVI_Projects/AirBnb Data Analysis/AirBNBIM.jpeg")
     st.image(image1)
 
     st.header("About Airbnb")
@@ -145,7 +145,7 @@ if select == "Data Exploration":
     with tab2:
 
         def datafr():
-            df_a= pd.read_csv("C:/Users/Srinivasa Rao/OneDrive/Documents/AirBnb Data Analysis/AirBnb.csv")
+            df_a= pd.read_csv("C:/Users/Srinivasa Rao/OneDrive/Documents/GUVI_Projects/AirBnb Data Analysis/AirBnb.csv")
             return df_a
 
         df_a= datafr()
@@ -217,7 +217,7 @@ if select == "Data Exploration":
         st.write("")
 
         def datafr():
-            df= pd.read_csv("C:/Users/Srinivasa Rao/OneDrive/Documents/AirBnb Data Analysis/AirBnb.csv")
+            df= pd.read_csv("C:/Users/Srinivasa Rao/OneDrive/Documents/GUVI_Projects/AirBnb Data Analysis/AirBnb.csv")
             return df
 
         df_l= datafr()
